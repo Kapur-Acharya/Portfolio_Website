@@ -1,0 +1,91 @@
+*{
+    font-family: "Finlandica Text", sans-serif;
+}
+html{
+    font-size: 10px;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 4rem;
+    height: 2vh;
+    background-color: transparent;
+}
+.logo{
+    font-weight:700;
+    font-size:1.7rem;
+    transition: 0.2s;
+}
+.logo:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    color: tomato;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav a{
+    padding: 0 3rem;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+nav a:hover{
+    color: tomato;
+    transform: scale(1.1);
+}
+.contact-btn{
+    padding:1rem 2.5rem;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.7rem;
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    transition: 0.2s;
+}
+.contact-btn:hover{
+    background-color: tomato;
+    color: white;
+    transform: scale(1.1);
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    margin: 10rem  5rem 0 5rem;
+    align-items: center;
+}
+.mainImg img{
+    width: 40rem;
+    height: 40rem;
+    border-radius: 50%;
+}
+.mainImg-description{
+    margin-right: 4rem;
+    font-size: 1.5rem;
+}
+
+.mainImg-description h3{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-style: italic;
+    color: tomato;
+}
+.mainImg-description span{
+    font-size: 2rem;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
